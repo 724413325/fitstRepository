@@ -1,0 +1,146 @@
+@charset "utf-8";
+body,textarea,input,select,option{font-size:14px;color:#333;font-family:Arial,'微软雅黑',Tahoma,sans-serif;}h1,h2,h3,h4,h5,h6,input, textarea, select{font-size:100%;}
+body,h1,h2,h3,h4,h5,h6,blockquote,ol,ul,dl,dd,p,textarea,input,select,option,form{margin:0;}
+ol,ul,li,textarea,input,select,option,th,td{padding:0;}
+table{border-collapse:collapse;}
+ol,ul{list-style-type:none;}
+a{text-decoration:none;color:#333;}
+a,textarea,input{outline:none}
+textarea{overflow:auto;resize:none;}
+a img{border:none;}
+label,label input{vertical-align:middle}
+body{word-break:normal;word-wrap:break-word;cursor:default;}
+input[type="checkbox"],input[type="text"],input[type="submit"],input[type="number"],input[type="tel"],textarea,button,input[type="button"]{-webkit-border-radius:0;border-radius:0;-webkit-appearance: none;}
+html, body, form,fieldset, p, div,h1, h2, h3, h4, h5, h6{-webkit-text-size-adjust:none;}
+i,var{font-style:normal;}
+b,i{font-style:normal;}
+.vm *{vertical-align: middle;}
+img{display:block;}
+body a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+em,i,var{font-style:normal;}
+body{margin:0 auto;max-width:640px;background-color:#ffffff;}
+h1.symptomatic-tit{height:40px;box-sizing:border-box;font-size:18px;color:black;font-weight:bold;line-height:40px;text-align:center;}
+.symptomatic-tab{width:100%;height:36px;background-color:#63c32e;border-top:2px solid #63c32e;box-sizing:border-box;position: fixed;}
+.symptomatic-tab a{display: block;width: 20%;height: 100%;line-height: 36px;text-align: center;font-size: 14px;color: black;box-sizing: border-box;float: left;}
+.symptomatic-tab a.on{color:#333;}
+.world-details{margin-left:10px;margin-right:10px;margin-top:13px;overflow:hidden;}
+.world-details img{width:120px;height:90px;float:left;}
+.world-details p{margin-left:130px;font-size:14px;color:#666666;line-height:21px;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;word-break:break-all;text-overflow:ellipsis;}
+.world-details p a{color:#2374e3;}
+.symptomatic-nav-tit{clear:both;margin-left:10px;margin-right:10px;margin-top:20px;}
+.symptomatic-nav-tit a{display:block;width:33.33%;height:30px;float:left;box-sizing:border-box;margin-bottom:12px;font-size:15px;color:#666666;}
+.symptomatic-nav-tit a i{display:block;width:25px;height:25px;background-image:url("img/icon.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/icon.png*/);background-repeat:no-repeat;background-size:100px 200px;float:left;margin-right:1px;}
+.symptomatic-nav-tit a:nth-child(1) i{background-position:-44px 2px;}
+.symptomatic-nav-tit a:nth-child(2) i{background-position:-40px -28px;}
+.symptomatic-nav-tit a:nth-child(3) i{background-position:-41px -93px;}
+.symptomatic-nav-tit a:nth-child(4) i{background-position:-41px -160px;}
+.symptomatic-nav-tit a:nth-child(5) i{background-position:-40px -127px;}
+.symptomatic-nav-tit a:nth-child(6) i{background-position:-40px -60px;}
+.banner{overflow:hidden;margin-left:10px;margin-right:10px;clear:both;margin-bottom:15px;}
+.banner img{width:100%;}
+.bg{display:block;height:10px;background-color:#f4f4f4;}
+.doctor-recommends{overflow:hidden;margin-bottom:20px;}
+.doctor-recommends h2{height:40px;border-bottom:1px solid #e5e5e5;line-height:40px;font-size:15px;color:black;}
+.doctor-cont-details{margin-top: 15px;}
+.doctor-cont-left{width: 60px;height: 60px;background: #f5f5f5;float: left;border-radius: 50%;margin-top: 3px;}
+.doctor-cont-left img{width: 60px;height: 60px;border-radius: 50%;}
+.doctor-cont-right{margin-left: 70px;}
+.doctor-cont-right i{display: block;margin-bottom: 6px;color: #666666;}
+.doctor-cont-right a{display: block;width: 68px;height: 25px;border: 1px solid #63c32e;float: right;text-align: center;line-height: 25px;font-size: 12px;color: #63c32e;margin-top: -30px;margin-left: 10px;border-radius:3px;background-color:#63c32e;color:white;box-sizing:border-box;}
+.doctor-cont-right i{display: block;margin-bottom:5px;color: #666666;}
+.doctor-cont-right i span{font-size:15px;}
+.doctor-recommends{margin-left:10px;margin-right:10px;}
+.doctor-recommends p{overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;word-break: break-all;text-overflow: ellipsis;color: #666666;clear:both;line-height:22px;}
+.doctor-cont-right i em{margin-left:5px;}
+.question a{display:block;line-height:28px;font-size:14px;color: #666666;}
+.question h2{margin-bottom:15px;}
+.video-question a{display:block;border-bottom:1px solid #e5e5e5;overflow:hidden;padding-bottom:10px;}
+.video-question a img{width:130px;height:73px;float:left;}
+.video-question a div{float:left;margin-left:10px;margin-top:13px;}
+.video-question a div p:nth-child(1){font-size:15px;color:black;}
+.video-question a div p:nth-child(2){font-size:12px;color:#666666;}
+.hospitals{margin-bottom:10px;}
+.hospitals i{display:block;overflow:hidden;margin-top:10px;margin-bottom:10px;border-bottom:1px solid #e5e5e5;padding-bottom:10px;}
+.hospitals a{display:block;}
+.hospitals i a img{width:130px;height:100px;}
+.hospitals i .doctor-a{width:130px;height:100px;float:left;}
+.hospitals i em{display:block;width: 54%;margin-left:140px;}
+.hospitals i em a var{display:block;font-size:12px;line-height:17px;color:#666666;font-size:12px;}
+.hospitals i em a var:nth-child(1){font-size:14px;color:black;display:inline-block;margin-bottom:5px;}
+.hospitals i em a:nth-child(2){display:inline-block;width:65px;height:23px;background-color:#63c32e;text-align:center;line-height:23px;border-radius:3px;color:white;margin-top:5px;}
+.hospitals i .drug-a{width:90px;height:90px;float:left;}
+.hospitals i a.drug-a img{width:90px;height:90px;}
+.hospitals i em.drug-box{margin-left:100px;width:67%;}
+.hospitals i em.drug-box a:nth-child(2){margin-top:26px;}
+.hospitals i em.drug-box a:nth-child(1) var b{color:#ff6600;margin-left:18px;}
+.doctor-recommends .related-diseases{margin-top:15px;margin-bottom:15px;}
+.doctor-recommends .related-diseases a{display:block;width:33.33%;float:left;line-height:25px;}
+i.brief-introduction{display:block;height:30px;background-color:#f5f5f5;margin-top:15px;margin-bottom: 15px;line-height:30px;font-size:15px;color:#63c32e;box-sizing:border-box;padding-left:10px;}
+.symptom-details-brief{overflow:hidden;clear:both;margin-left:10px;margin-right:10px;}
+.banner-2{height:100px;width:100%;margin-bottom:30px;}
+.symptom-details-brief p{font-size:14px;color:#666666;line-height:25px;margin-top:20px;margin-bottom:20px;text-indent:2em;}
+.experience{overflow:hidden;margin-top:15px;margin-left:10px;margin-right:10px;}
+.experience a{display:block;overflow:hidden;border-bottom:1px solid #e5e5e5;padding-bottom:15px;}
+.experience div img{width:108px;height:70px;float:left;}
+.experience div i{display:block;margin-left:115px;position:relative;top:7px;}
+.experience .tit{font-size:14px;color:black;margin-bottom:10px;}
+.experience div i p:nth-child(1){font-size:13px;color:#666666;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;word-break: break-all;text-overflow: ellipsis;line-height:21px;}
+.experience div i p:nth-child(2){font-size:14px;color:#999999;margin-top:7px;}
+.experience .details{margin-top:7px;font-size:13px;color: #666666;line-height:21px;}
+.experience em{display:block;overflow:hidden;}
+.experience em span{display:block;width:30%;box-sizing:border-box;float:left;}
+.experience em span:nth-child(2){margin-left:5%;margin-right:5%;}
+.experience em img{width:100%;}
+i.look-more{display:block;height:30px;margin-left:10px;margin-right:10px;margin-top:15px;background-color:#f5f5f5;text-align:center;line-height:30px;font-size:12px;color:#999999;}
+.article-list{overflow:hidden;clear:both;}
+.article-list .time{margin-top:10px;color:#cccccc;}
+.question-list{clear:both;overflow:hidden;margin-left:10px;margin-right:10px;padding-top:15px;padding-bottom:15px;border-bottom:1px dashed #cccccc;}
+.question-list a:nth-child(1){display:block;width:54px;height:auto;border-radius:50%;text-align:center;float:left;}
+.question-list a img{width:54px;height:54px;border-radius:50%;}
+.question-list a:nth-child(1) i{display:block;text-align:center;font-size:13px;color:black;margin-top:5px;}
+.question-list a:nth-child(2){display:block;margin-left:64px;}
+.question-list a:nth-child(2) p i{display:inline-block;width:15px;height:15px;background-color:#66cc33;font-weight:bold;color:white;text-align:center;line-height:15px;margin-right:5px;}
+.question-list a:nth-child(2) p:nth-child(1){font-size:15px;color:black;}
+.question-list a:nth-child(2) p:nth-child(2){margin-left:20px;color:#666666;font-size:12px;margin-top:5px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;word-break: break-all;text-overflow: ellipsis;}
+.question-list a:nth-child(2) span{margin-left:20px;display:inline-block;margin-top:8px;}
+.disease-box{margin-left:10px;margin-right:10px;overflow:hidden;}
+.disease-box .tit{font-size:15px;color:black;font-weight:bold;margin-top:13px;margin-bottom:10px;}
+.disease-box a{display:block;width:49%;height:35px;box-sizing:border-box;border:1px solid #99cc99;border-radius:3px;float:left;text-align:center;line-height:35px;color:#666666;font-size:14px;margin-bottom:10px;}
+.disease-box div{overflow:hidden;}
+.disease-box div a:nth-child(odd){margin-right:2%;}
+.diet-tyerapy-tit{display:block;margin-left:10px;margin-right:10px;height:30px;background-color:#d8f6c7;margin-top:15px;text-align:center;line-height:30px;font-size:15px;color:#308800;}
+.diet-tyerapy-container{clear:both;overflow:hidden;margin-left:10px;margin-right:10px;margin-top:10px;}
+.should-tit{font-size:13px;color:#333333;margin-bottom:13px;}
+.should-tit i{display:inline-block;width:20px;height:20px;background-color:#63c32e;text-align:center;line-height:20px;font-size:13px;color:white;margin-right:9px;float: left;}
+.should-tit span{display:inline-block;width:90%;line-height:19px;font-size:14px;}
+.roll-diet-tyerapy .left-btn{display:block;width:11px;height:17px;background-image:url("img/left.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/left.png*/);background-size:11px 17px;background-repeat:no-repeat;float:left;margin-left:11px;box-sizing:border-box;position:absolute;top:47px;}
+.roll-diet-tyerapy .right-btn{display:block;width:11px;height:17px;background-image:url("img/right.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/right.png*/);background-size:11px 17px;background-repeat:no-repeat;float:right;margin-right:11px;box-sizing:border-box;position:absolute;top:47px;right:0px;}
+.roll-box{height:auto;margin-left:30px;margin-right:30px;overflow:hidden;}
+.roll-box i{display:block;width:33.33%;float:left;}
+.roll-box i a{display:block;height:25px;background-color:white;text-align:center;font-size:13px;color:black;line-height:25px;}
+.roll-box i a.on{background-color:#63c32e;color:white;}
+.roll-box i em.on{display:block;width:8px;height:4px;background-image:url("img/roll-sanjiao.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/roll-sanjiao.png*/);background-size:8px 4px;margin:0 auto;}
+.roll-box i img{width:100%;height:58px;}
+.roll-diet-tyerapy{overflow:hidden;background-color:#f5f5f5;padding-top:15px;padding-bottom:8px;position:relative;}
+.roll-box div{height:auto;}
+.diet-tyerapy-tab{clear:both;overflow:hidden;background-color:#f5f5f5;margin-left:10px;margin-right:10px;}
+.diet-tyerapy-tab div{margin-left:37px; margin-right:37px;}
+.diet-tyerapy-tab div p:nth-child(1),.diet-tyerapy-tab div p:nth-child(3){font-size:14px; color:#6dc63b;}
+.diet-tyerapy-tab div p:nth-child(2),.diet-tyerapy-tab div p:nth-child(4){font-size:13px;color:#666666;margin-top:5px;line-height:23px;margin-bottom:15px;}
+.container-1{clear:both;overflow:hidden;}
+.container-2{clear:both;overflow:hidden;}
+.container-2 .roll-box i a.on{background-color:#ff6600;}
+.container-2 i.diet-tyerapy-tit{background-color:#fad7c0;color:#c45710;}
+.container-2 .should-tit i{background-color:#ff6600;}
+.container-2 .roll-box i em.on{display: block;width: 8px;height: 4px;background-image: url("img/sanjiao2.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/sanjiao2.png*/);background-size: 8px 4px;margin: 0 auto;}
+.container-2 .diet-tyerapy-tab div p:nth-child(1), .container-2 .diet-tyerapy-tab div p:nth-child(3){font-size: 14px;color: #ff6600;}
+.symptomatic-tab .yes{background-image:url("img/top.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/top.png*/);background-size:10px 6px;background-repeat:no-repeat;background-position:50% 28px;}
+.symptomatic-tab-select{clear:both;position:absolute;width:100%;max-width:640px;z-index:1000;padding-top:10px;padding-bottom:10px;background-image:url("img/juxing.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/juxing.png*/);background-size:100% 100%;padding-left:12px;padding-right:12px;box-sizing:border-box;display:none;margin-top:-1px;}
+.symptomatic-tab-select a{color:white;font-size:13px;margin-right:10px;line-height:23px;}
+.banner-box{margin-left:10px;margin-right:10px;margin-top:20px;margin-bottom:30px;}
+.banner-box img{width:100%;}
+@media (min-width: 640px){
+  .roll-diet-tyerapy .left-btn {display:block;width:11px;height:17px;background-image:url("img/left.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/left.png*/);background-size:11px 17px;background-repeat:no-repeat;float:left;margin-left:11px;box-sizing:border-box;position:absolute;top:80px;}
+  .roll-diet-tyerapy .right-btn {display:block;width:11px;height:17px;background-image: url("img/right.png"/*tpa=http://cdn.120askimages.com/ask/m/zhengzhuang/v1/css/img/right.png*/);background-size: 11px 17px;background-repeat:no-repeat;float:right;margin-right:11px;box-sizing:border-box;position:absolute;right:0px;top:80px;}
+  .roll-box i img{width:100%;height:120px;}
+}
