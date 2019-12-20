@@ -1,0 +1,46 @@
+/* 
+ * @description:  public  top  and  bottom  and  ad
+ * @author: pengchao
+ * @update:
+*/ 
+@charset "utf-8";
+body,textarea,input,select,option {font-size:12px;color:#333;font-family:Arial,"微软雅黑",Tahoma,sans-serif;}h1,h2,h3,h4,h5,h6,input, textarea, select{font-size:100%;font-weight:normal;}body,h1,h2,h3,h4,h5,h6,blockquote,ol,ul,dl,dd,p,textarea,input,select,option,form {margin:0;}ol,ul,li,textarea,input,select,option,th,td {padding:0;}table {border-collapse:collapse;}ol,ul {list-style-type:none;}.clears:before,.clears:after {content:'';display:table;}.clears:after {clear:both;}.clears {*zoom:1;}.clear {clear:both;overflow:hidden;}a {text-decoration:none;color:#333;}a,textarea,input{outline:none}textarea {overflow:auto;resize:none;}.img img {display:block;}a img {border:none;}.z_index{position:fixed;_position:absolute;z-index:999;display:none;}label,label input{vertical-align:middle}.pr {position:relative;}.pa {position:absolute;}.fl {float:left;}.fr {float:right;}a:hover{text-decoration:none}body{word-break:break-all;word-wrap:break-word;cursor:default;}input,button,textarea{-webkit-appearance: none;}input[type="checkbox"],input[type="text"],input[type="submit"],input[type="number"],textarea{-webkit-border-radius:0;border-radius:0;}html, body, form,fieldset, p, div,h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}.d_box{display:-moz-box;display:-webkit-box;display:box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;width:100%;}html{font-size:62.5%;}body{font-size:1.2rem;width:100%;overflow-x:hidden;}i,var{font-style:normal;}.d_center{display: -webkit-box;display: -moz-box;display: box;-webkit-box-pack: center;-webkit-box-align: center;-moz-box-pack: center;-moz-box-align: center;box-pack: center;box-align: center;}.d_boxflex{-webkit-box-flex: 1;-moz-box-flex: 1;-ms-box-flex: 1;box-flex: 1;display:block;}.nowrap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}b,i{font-weight:normal;font-style:normal;}.vm *{vertical-align: middle;}
+
+/*公共头部*/
+.bg{background:url(//cdn.120askimages.com/ask/m/css/img/s_floor.png) no-repeat;-webkit-background-size:90px 63px;background-size:90px 63px;vertical-align:middle;}
+.public-Top{height:41px;}
+.public-Top nav{padding:6px 0;background-color:#64B729;width:100%;}
+.public-Top a.goBack,.public-Top a.title{display:inline-block;height:29px;line-height:29px;}
+.public-Top a.goBack span,.public-Top a.title{display:inline-block;height:27px;line-height:27px;border:1px solid #499712;margin-left:11px;border-left:0;background-color:#78C442;padding:0 8px;font-size:13px;color:#fff;font-weight:bold;}
+.public-Top a.goBack{background-position:-74px 0;vertical-align:top;margin-left:7px;}
+.public-Top a.title{border-left:1px solid #499712;}
+.public-Top a.topic{float:right;display:inline-block;width:26px;height:23px;margin-right:17px;margin-top:5px;background-position:-27px -24px;}
+.public-Top .more {float: right;width: 50px;height: 41px;margin: -6px 0;text-align: center;cursor: pointer;}
+.public-Top .more i {float: none;display: inline-block;width: 25px;height: 18px;background-position: -20px 0;margin: 12px 0px 0 0;}
+.public-Top .moreclick{background-color: #369914;}
+.box{display:-moz-box;display:-webkit-box;display:box;-moz-box:pack:center;-webkit-box-pack:center;box-pack:center;-moz-box-align:center;-webkit-box-align:center;box-align:center;box-sizing:border-box;}
+#toplistwrap{display:none;}
+.s_toplist{background-color:#369914;z-index:99999;display:block;box-shadow:0 2px 3px #6D766A;display:none;position:fixed;width:100%;}
+.s_topwrap{padding:8px 0;}
+.s_topwrap div{-webkit-box-flex:1;width:100%;-moz-box-flex:1;box-flex:1;height:30px;line-height:30px;}
+.s_topwrap a,.s_topbottom a{display:block;height:39px;line-height:39px;color:#FFF;width:84px;text-align:center;-webkit-box-flex:1;color:#fff;font-size:16px;font-weight:bold;-moz-box-flex:1;}
+.s_topbottom a{height:45px;line-height:45px;}
+.s_topline{border-top:1px solid #248909;border-bottom:1px solid #55A63F;content: "";margin:0 10px;height:auto;margin-top:5px;}
+.s_topbottom{width:100%;background-color: #369914;}
+.up i{background:url(//cdn.120askimages.com/ask/m/css/img/up_slide.png) no-repeat;-webkit-background-size:57px 27px;-moz-background-size:57px 27px;background-size:57px 27px;display:inline-block;width:57px;height:27px;position: absolute;left:50%;margin-left:-29px;top:0px;cursor:pointer;z-index:1;}
+/**头部结束**/
+/*搜索*/ 
+.s_top {padding: 15px 12px 0;} 
+.s_publicwarp{display:-webkit-box;display:-moz-box;display:box;background-color: #fff;} 
+.s_publicsearch{border:1px solid #8AC85E;-webkit-box-flex:1;-moz-box-flex:1;} 
+.s_publicsearch input[type="text"]{height:38px;border:0 none;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;padding:0 5px 0 30px;font-size:15px;color:#666;background:url(//m.120.net/pub/css/img/s_search.png) no-repeat 5px center;-webkit-background-size:19px 22px;background-size:19px 22px;} 
+.s_publicwarp input[type="submit"]{;height:40px;display: block;font-size:18px;border:1px solid #8AC85E;border-left:none;color:#fff;background: #64B729; background-size:5px 10px;font-weight:normal;padding:0 15px;} 
+/*搜索结束*/ 
+/**底部**/
+.m16_bottom{height:38px;background-color:#ddf7fd;padding:0 12px;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;} 
+.m16_bottom span{display:block;float:left;text-align:center;padding-top:12px;width:25%} 
+.m16_bottom span a{display:block;height:14px;position:relative;width:100%;border-right:1px solid #D5D5D5;line-height:14px;font-size:11px;color:#4a4a4a;box-sizing:border-box;padding-left:10px;} 
+.m16_bottom span a i{display:block;width:10px;height:10px;position:absolute;left:50%;margin-left:-31px;top:1px;background:url('//cdn.120askimages.com/ask/m/images/m_tubiao2.png') no-repeat 0 0;background-size:10px 10px;-webkit-background-size:10px 10px;}
+.m16_bottom .m16_bottoma1 a i{background:url('//cdn.120askimages.com/ask/m/images/m_tubiao.png') no-repeat 0 0;background-size:10px 10px;-webkit-background-size:10px 10px;}
+.m16_bottom span:last-child a{border-right:none;} 
+/*底部结束*/
